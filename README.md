@@ -2,6 +2,10 @@ This is a maintained version of the `mujoco-py`, for the porpuse of supporting m
 
 no support will be provided
 
+## diference from `openai/mujoco-py==2.1.2.14`
+- if `cython.__version__ >= "3.0.0"` then compiler directives are set to `legacy_implicit_noexcept=True` 
+- version is now `2.1.2.15`
+
 
 ### New users should depend on the [official MuJoCo Python bindings](https://github.com/deepmind/mujoco/blob/main/python/README.md).
 
