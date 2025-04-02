@@ -31,11 +31,11 @@ class Build(DistutilsBuild):
 
 
 setup(
-    name='mujoco-py',
+    name='mujoco-py-cython3',
     version=__version__,  # noqa
-    author='OpenAI Robotics Team',
-    author_email='robotics@openai.com',
-    url='https://github.com/openai/mujoco-py',
+    author='Kallinteris',
+    author_email='kallinteris@protonmai.com',
+    url='https://github.com/Kallinteris-Andreas/mujoco-py',
     packages=packages,
     include_package_data=True,
     cmdclass={'build': Build},
